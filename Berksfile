@@ -31,4 +31,7 @@ site :opscode
 # Especially for local development, it's helpful to use a local path location.
 # Uncomment to point at a local cookbook on the filesystem, relative to the
 # current working directory.
-# cookbook "myserver", :path => "/code/myserver-cookbook"
+
+cookbook "nginx"
+cookbook "rbenv"
+cookbook "server", :path => "./cookbooks/server"
