@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source 'https://bundler.rubygems.org'
 
 gem 'json', '1.7.7'
 gem 'berkshelf', '~> 2.0.10'
@@ -13,6 +13,6 @@ gem 'chefspec', '~> 2.0.1'
 
 group :integration do
   gem 'test-kitchen', '~> 1.0.0.beta'
-  gem 'kitchen-vagrant', '~> 0.11.1'
+  gem 'kitchen-vagrant', '~> 0.11.0'
   gem 'serverspec', '~> 0.7.13'
 end

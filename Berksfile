@@ -10,7 +10,6 @@
 # This declares the default location to search for cookbooks. The key :opscode
 # tells Berkshelf to search community.opscode.com for cookbooks. For a list of
 # other valid keys, see the Berkshelf documentation
-site :opscode
 
 # Example usage
 # -------------
@@ -32,6 +31,10 @@ site :opscode
 # Uncomment to point at a local cookbook on the filesystem, relative to the
 # current working directory.
 
-cookbook "nginx"
-cookbook "rbenv"
-cookbook "server", :path => "./cookbooks/server"
+site :opscode
+
+cookbook "app_server", path: 'cookbooks/app_server'
+cookbook "database_server", path: 'cookbooks/database_server'
+cookbook "redis_server", path: 'cookbooks/redis_server'
+
+cookbook "build-essential"

@@ -1,0 +1,3 @@
+foodcritic: bundle exec foodcritic -f any $SANDBOX/$COOKBOOK
+tailor: bundle exec tailor $SANDBOX/$COOKBOOK/**/*.rb
+chefspec: bundle exec rspec $SANDBOX/$COOKBOOK/spec/*.rb --color

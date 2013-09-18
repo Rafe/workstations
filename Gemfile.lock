@@ -1,5 +1,5 @@
 GEM
-  remote: https://rubygems.org/
+  remote: https://bundler.rubygems.org/
   specs:
     activesupport (3.2.14)
       i18n (~> 0.6, >= 0.6.4)
@@ -245,7 +245,7 @@ DEPENDENCIES
   chefspec (~> 2.0.1)
   foodcritic (~> 2.2.0)
   json (= 1.7.7)
-  kitchen-vagrant (~> 0.11.1)
+  kitchen-vagrant (~> 0.11.0)
   serverspec (~> 0.7.13)
   strainer (~> 3.3.0)
   tailor (~> 1.2.1)
