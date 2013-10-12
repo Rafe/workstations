@@ -37,4 +37,7 @@ cookbook "app_server", path: 'cookbooks/app_server'
 cookbook "database_server", path: 'cookbooks/database_server'
 cookbook "redis_server", path: 'cookbooks/redis_server'
 
+cookbook "rbenv"
+cookbook "nginx"
+cookbook "unicorn"
 cookbook "build-essential"
