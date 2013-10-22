@@ -9,7 +9,7 @@ gem 'strainer', '~> 3.3.0'
 gem 'foodcritic', '~> 2.2.0'
 
 gem 'chef', '~> 11.6.0'
-gem 'chefspec', '~> 2.0.1'
+gem 'chefspec', '~> 3.0.0.beta'
 
 group :integration do
   gem 'test-kitchen', '~> 1.0.0.beta'

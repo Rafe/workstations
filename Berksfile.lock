@@ -25,7 +25,7 @@
       "locked_version": "3.1.0"
     },
     "apt": {
-      "locked_version": "2.2.0"
+      "locked_version": "2.2.1"
     },
     "openssl": {
       "locked_version": "1.1.0"
