@@ -10,7 +10,9 @@
       "path": "./cookbooks/redis_server"
     },
     "rbenv": {
-      "locked_version": "1.6.5"
+      "locked_version": "1.6.5",
+      "git": "git://github.com/RiotGames/rbenv-cookbook.git",
+      "ref": "93e3f1d554967a1b3f8d98243fe670ef3b5dab97"
     },
     "nginx": {
       "locked_version": "1.8.0"
@@ -25,7 +27,7 @@
       "locked_version": "3.1.0"
     },
     "apt": {
-      "locked_version": "2.2.1"
+      "locked_version": "2.3.0"
     },
     "openssl": {
       "locked_version": "1.1.0"
